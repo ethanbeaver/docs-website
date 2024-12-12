@@ -76,7 +76,7 @@ query you want to cancel. It will either return an `ACCEPTED` status, or `REJECT
 
 ```graphql
 mutation {
-  cancelQuery(queryId: "YOUR_QUERY_ID") {
+  nrqlCancelQuery(queryId: "YOUR_QUERY_ID") {
     queryId
     requestStatus
     rejectionReason
